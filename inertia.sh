@@ -14,6 +14,7 @@ cp updg.sh /data/data/com.termux/files/usr/etc/
 cd /data/data/com.termux/files/usr/etc/
 chmod +x updg.sh
 echo 'alias inertia="cd /data/data/com.termux/files/usr/etc/ && ./updg.sh"' >>/data/data/com.termux/files/usr/etc/bash.bashrc
+cd ~
 clear
 echo -e "\n\n\n\n"
 chars="Inertia is running. Please Wait..."
